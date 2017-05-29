@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>MENGENAL FUNGSI STRING</title>
+</head>
+<body>
+<?php
+echo"<b>";
+$pesan="<div style=\" font-size:70\">Hacked</div>";
+	echo "$pesan<br>"; // stekom strip_tags()
+	echo strip_tags($pesan) ; // sesudah strip_tags()
+	$ganti = str_replace("saya", "kami", $str);
+echo"</b>";
+?>
+</body>
+</html>
